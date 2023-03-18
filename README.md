@@ -1,1 +1,2 @@
-# Chat_app_react
+# chat-app-react
+I have created a real time chat application which is named as Let's Chat. In this react assignment, I have used my previous html and css files and added react component in Log in page. 

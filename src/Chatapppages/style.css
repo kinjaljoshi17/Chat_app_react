@@ -1,0 +1,76 @@
+ div {
+     width: 1500px;
+     height: 700px;
+     background-color: black;
+ }
+
+ #Logo {
+     max-height: 150px;
+     width: 150px;
+     display: flex;
+     float: center;
+     padding-bottom: 0px;
+     padding-left: 500px;
+     padding-top: 50px;
+ }
+
+ #Welcome-text {
+     display: flex;
+     float: center;
+     padding-bottom: 0px;
+     padding-left: 340px;
+     padding-top: 5px;
+     color: blue;
+     font-size: 40px;
+ }
+
+ #Link {
+     display: flex;
+     float: center;
+     padding-bottom: 0px;
+     padding-left: 520px;
+     padding-top: 5px;
+     color: blue;
+     font-size: 20px;
+ }
+
+ #Email {
+     display: flex;
+     float: center;
+     margin-left: 500px;
+     color: blue;
+     font-size: 20px;
+     margin-top: 100px;
+     background-color: rgb(217, 213, 218);
+ }
+
+
+ #password {
+     display: flex;
+     float: center;
+     margin-left: 500px;
+     color: blue;
+     font-size: 20px;
+     background-color: rgb(217, 213, 218);
+ }
+
+ #Loginbtn {
+     display: flex;
+     float: center;
+     color: black;
+     font-size: 20px;
+     margin-left: 570px;
+     background-color: rgb(177, 169, 180);
+ }
+
+
+
+ #Logo2 {
+     max-height: 150px;
+     width: 150px;
+     display: flex;
+     float: center;
+     padding-bottom: 0px;
+     padding-left: 550px;
+     padding-top: 50px;
+ }
