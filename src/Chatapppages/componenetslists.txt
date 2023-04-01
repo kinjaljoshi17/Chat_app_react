@@ -1,0 +1,27 @@
+Components for Let’s Chat App
+
+Main Login page
+Props:  Homepage
+States:
+Log in using E-mail
+
+Props:  Login page-
+States:
+Input box email
+Input box password
+Login button
+
+Search bar
+1. Search results
+
+User profile (header)
+
+Friend list
+
+Icons (footer)
+
+Chat
+Props:  Chat History
+States:
+Input box
+Send box
