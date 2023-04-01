@@ -1,19 +1,17 @@
-
 import React from "react";
 import reportWebVitals from "./reportWebVitals";
 import ReactDOM from "react-dom/client";
 
+import "../src/Chatapppages/style.css";
 
-import '../src/Chatapppages/style.css';
-import Login from "./Chatapppages/Login.jsx";
-
+import Homepage from "./Chatapppages/Homepage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <React.StrictMode>
-        <Login />
-    </React.StrictMode>
+  <React.StrictMode>
+    <Homepage name="homepage" />
+  </React.StrictMode>
 );
 
 reportWebVitals();
