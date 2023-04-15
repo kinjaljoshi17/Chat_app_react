@@ -1,17 +1,14 @@
 import React from "react";
 import reportWebVitals from "./reportWebVitals";
 import ReactDOM from "react-dom/client";
-
-import "../src/Chatapppages/style.css";
-
-import Homepage from "./Chatapppages/Homepage";
+import Welcome from "./components/Welcome";
+import "./styles/chat.css";
+import "./styles/style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Homepage name="homepage" />
+    <Welcome />
   </React.StrictMode>
 );
-
-reportWebVitals();

@@ -1,0 +1,327 @@
+.logo {
+  max-height: 100px;
+  width: 100px;
+  display: flex;
+  float: left;
+  padding-bottom: 0px;
+}
+
+.heading {
+  color: blue;
+  display: flex;
+  padding-left: 40px;
+}
+
+.search-menu {
+  display: flex;
+  justify-content: left;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.container {
+  display: flex;
+  float: left;
+  margin-left: 100px;
+  flex-basis: auto;
+  position: relative;
+  color: black;
+  font-size: large;
+  justify-content: space-around;
+}
+
+.jessica-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  vertical-align: top;
+  padding-right: 20px;
+}
+
+.online {
+  font-family: "Lateef", serif;
+  font-size: 16px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -50px;
+}
+
+.chatbox-right {
+  display: flex;
+  float: right;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #56be99;
+  margin-left: 995px;
+  position: fixed;
+}
+
+.chatbox-centre {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #14f5f5;
+  margin-top: -70px;
+  margin-left: 280px;
+}
+
+.chatbox-green-2 {
+  display: flex;
+  float: right;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #56be99;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  margin-top: 55px;
+}
+
+.chatbox-green-3 {
+  display: flex;
+  float: right;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #56be99;
+  margin-right: 120px;
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  margin-top: 135px;
+}
+
+.chatbox-green-4 {
+  display: flex;
+  float: right;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #56be99;
+  margin-right: 120px;
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  margin-top: 245px;
+}
+
+.chatbox-left {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  margin-top: 90px;
+  margin-left: 280px;
+}
+
+#chat-content {
+  width: fit-content;
+}
+
+.chatbox-left-2 {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  margin-top: 185px;
+  margin-left: 280px;
+}
+
+.chatbox-left-3 {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  margin-top: 285px;
+  margin-left: 280px;
+}
+
+.chatbox-left-4 {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  margin-top: 335px;
+  margin-left: 280px;
+}
+
+.chatbox-left-5 {
+  display: flex;
+  float: left;
+  border-radius: 20px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  margin-right: 130px;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  margin-top: 385px;
+  margin-left: 280px;
+}
+
+.profileimg {
+  height: 70px;
+  width: 60px;
+  border-radius: 50px;
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.chat-container {
+  border: 1.5px solid #dedede;
+  max-height: auto;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  display: table;
+  padding-top: 0%;
+}
+
+.last-message {
+  font-family: "Lateef", serif;
+  font-size: 16px;
+  font-weight: lighter;
+  display: flex;
+  float: inline-end;
+}
+
+.time-right {
+  font-family: "Lateef", serif;
+  font-size: 16px;
+  font-weight: lighter;
+  display: flex;
+  float: right;
+}
+
+.icons {
+  float: right;
+  margin-right: 0px;
+}
+
+.home-icon {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.contacts-icon,
+.status-icon,
+.profile-icon {
+  height: 80px;
+  width: 80px;
+  padding-top: 50px;
+}
+
+/*  .line{
+              width: 1133px;
+              height: 0px;
+              color: #dedede;
+              margin-top: 95px;
+              margin-bottom: 0px;
+              margin-right: 120px;
+          }
+          .line2{
+              width: 20.8%;
+              height: 0px;
+              color:#dedede;
+              margin-top: 5px;
+              margin-bottom: 0px;  
+          }*/
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: white;
+    border-radius: 50px;
+  }
+
+  .icons {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  #chat-content {
+    display: none;
+  }
+
+  .jessica-profile {
+    display: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .chatbox-centre {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and(max-width:1280px) {
+  body {
+    background-color: ECDCE9;
+  }
+
+  .mob-container {
+    position: fixed;
+  }
+
+  .icons {
+    margin-right: 15px;
+  }
+
+  .chatbox-centre {
+    width: auto;
+  }
+
+  .chatbox-green-2.chatbox-green-3.chatbox-green-4.chatbox-right {
+    float: right;
+    padding-left: 70px;
+  }
+
+  .chatbox-right {
+    margin-right: 400px;
+  }
+}
