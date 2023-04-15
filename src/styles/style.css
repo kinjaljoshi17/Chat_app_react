@@ -1,0 +1,51 @@
+div {
+  background-color: #ffee;
+}
+#welcomemsg {
+  color: antiquewhite;
+}
+
+#Logo {
+  max-height: 150px;
+  width: 150px;
+}
+
+#Welcome-text {
+  color: blue;
+  font-size: 40px;
+}
+
+.email,
+.pass {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.appLogo {
+  max-height: 150px;
+  width: 150px;
+}
+
+.welcomContainer,
+.loginContainer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.loginButton {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: green;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.loginForm {
+  margin: 24px auto;
+  max-width: 200px;
+}
